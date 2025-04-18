@@ -1,13 +1,13 @@
 import { initializeApp } from "firebase/app";
-import { getAuth, createUserWithEmailAndPassword, signInWithPopup, GoogleAuthProvider, signOut } from "firebase/auth"; // Импортируем signOut
+import { getAuth, createUserWithEmailAndPassword, signInWithPopup, GoogleAuthProvider, signOut } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAxfFm_vWEz4_h3xOD9DApqRTdTjbq2crY",
-  authDomain: "local-soulwi.firebaseapp.com",
-  projectId: "local-soulwi",
-  storageBucket: "local-soulwi.appspot.com",
-  messagingSenderId: "944388395479",
-  appId: "1:944388395479:web:b160914f7f0a09a2083b92",
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
 };
 
 const app = initializeApp(firebaseConfig);
